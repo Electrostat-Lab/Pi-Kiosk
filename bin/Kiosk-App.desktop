@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Kiosk-App
+Comment=Setup Autostart application
+Exec=bash /home/pi/Pi-Kiosk/autostart/autostart.sh
+Name[en_US]=Kiosk-App
