@@ -22,3 +22,38 @@ sudo bash /home/pi/Pi-Kiosk/uninstall/uninstall.sh
 reboot
 ```
 
+## Example for a javaFx fullscreen (immersion mode) application :
+```java
+package sample;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+/**
+ * Fullscreen Jfx application with disabled window exit listener.
+ * 
+ * @author pavl_g.
+ */
+public class Main extends Application {
+
+    @Override
+    public void start(Stage primaryStage) throws Exception{
+        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        primaryStage.setTitle("Hello World");
+        primaryStage.setScene(new Scene(root));
+        primaryStage.setFullScreen(true);
+        primaryStage.setFullScreenExitHint("Welcome to the world !");
+        primaryStage.setOnCloseRequest(event -> {
+        });
+        primaryStage.show();
+    }
+    
+    public static void main(String[] args) {
+        launch(args);
+    }
+}
+```
+
