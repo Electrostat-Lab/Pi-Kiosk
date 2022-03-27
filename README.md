@@ -1,7 +1,6 @@
-# Pi-Kiosk
-
  <img src="https://user-images.githubusercontent.com/60224159/160303112-5e5850fc-52ba-4224-b845-575940b83a6b.png" width="90" height="90">  <img src="https://user-images.githubusercontent.com/60224159/160303372-8e0cc14f-5de0-4993-9f66-a018581e70ff.png" width="90" height="90"> 
 
+# Pi-Kiosk
 Kiosk Script Enabler for Pi applications
 
 ## To enable : 
