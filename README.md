@@ -3,6 +3,9 @@
 # Pi-Kiosk
 Kiosk Script Enabler for Pi applications
 
+## The raspberry pi reference : 
+https://www.raspberrypi.com/documentation/
+
 ## To enable : 
 
 1) Download this package.
